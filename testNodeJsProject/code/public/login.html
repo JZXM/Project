@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    window.jQuery || document.write("<script src='js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+</script>
+<script>
+    var flag=true;
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+        "SymbianOS", "Windows Phone",
+        "iPad", "iPod"];
+    for (var i = 0; i < Agents.length; i++) {
+        if (userAgentInfo.indexOf(Agents[i]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    if (flag == true) {
+        window.location.href = "loginPC";
+    } else {
+        window.location.href = "loginMobile";
+    }
+</script>

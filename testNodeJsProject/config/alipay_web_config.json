@@ -1,0 +1,18 @@
+{
+   "service": "alipay.wap.create.direct.pay.by.user",
+   "partner": "2088621539129901",
+   "_input_charset": "utf-8",
+   "notify_url": "http://bjagent.ixianya.com:20084/notifyUrl",
+   "show_url": "http://bjagent.ixianya.com:20084/showUrl",
+   "return_url": "http://bjagent.ixianya.com:20084/returnUrl",
+
+   "payment_type": "1",
+   "seller_id": "3491414429@qq.com",
+   "goods_type": "0",
+   "key_web_pay": "ukravbcnv3vsntndbt7mp2hxzbjer250",
+   "ALIPAY_HOST": "mapi.alipay.com",
+   "HTTPS_VERIFY_PATH": "/gateway.do?service=notify_verify&",
+   "ALIPAY_PATH":"gateway.do?",
+   "input_charset":"UTF-8",
+   "sign_type":"MD5"
+}
